@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+/npm-debug.log*
+.npm/
+package-lock.json
+
+# Testing
+/coverage
+/.nyc_output
+
+# Production
+/build
+/dist
+/release
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and other
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+*.stackdump
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
